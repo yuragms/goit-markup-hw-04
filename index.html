@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStudio</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!--Шрифты найденые в макете Raleway700,( по ошибке дизайнера не используем OleoScript400) , Roboto400,500,700,900 Script-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- header-->
+
+    <header>
+        <div class="container header">
+            <a href="./index.html" class="logo">Web<span>Studio</span></a>
+            <nav>
+                <ul class="site-nav"> 
+                    <li class="item"><a href="./index.html" class="link current">Студия</a></li>
+                    <li class="item"><a href="./portfolio.html" class="link">Портфолио</a></li>
+                    <li class="item"><a href="#" class="link">Контакты</a></li>
+                </ul>
+            </nav>
+            <ul class="auth-nav">
+                <li class="item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+                <li class="item"><a href="tel:+380991111111" class="link">+38 099 111 11 11</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- main-->
+
+    <main>
+        <section class="prim-section">
+            <div class="container prim">
+                <h1 class="title-index">Эффективные решения<br> для вашего бизнеса</h1>
+                <a href="#" class="link-prim-section">Заказать услугу</a>
+            </div>
+        </section>
+
+        <section>
+            <div class="container advant">
+                <!-- Скытый заголовок-->
+                <h2 class="visually-hidden">Особенности</h2>
+                <ul class="advantage-list">
+                    <li>
+                        <h3 class="advantage">Внимание к деталям</h3>
+                        <p class="text">Идейные соображения, а также начало повседневной работы по формированию позиции.
+                        </p>
+                    </li>
+                    <li>
+                        <h3 class="advantage">Пунктуальность</h3>
+                        <p class="text">Задача организации, в особенности же рамки и место обучения кадров влечет за
+                            собой.
+                        </p>
+                    </li>
+                    <li>
+                        <h3 class="advantage">Планирование</h3>
+                        <p class="text">Равным образом консультация с широким активом в значительной степени
+                            обуславливает.
+                        </p>
+                    </li>
+                    <li>
+                        <h3 class="advantage">Современные технологии</h3>
+                        <p class="text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div class="container doing">
+                <h2 class="title-doing">Чем мы занимаемся</h2>
+                <ul class="doing-list">
+                    <li><img src="./images/box-1.jpg" alt="Набор текста" width="370" /></li>
+                    <li><img src="./images/box-2.jpg" alt="Мобильная версия" width="370" /></li>
+                    <li><img src="./images/box-3.jpg" alt="Дизайн" width="370" /></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="comand-section">
+            <div class="container comand">
+            <h2 class="title-comand">Наша команда</h2>
+            <ul class="comand-list">
+                <li>
+                    <article class="card">
+                        <div class="card-thumb>"><img src="./images/team-card-1.jpg" alt="Игорь Демьяненко" width="270" /></div>
+                        <div class="comand-desc">
+                            <h3 class="persons">Игорь Демьяненко</h3>
+                            <p class="prof-persons">Product Designer</p>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="card">
+                        <div class="card-thumb>"><img src="./images/team-card-2.jpg" alt="Ольга Репина" width="270" /></div>
+                        <div class="comand-desc">
+                            <h3 class="persons">Ольга Репина</h3>
+                            <p class="prof-persons">Frontend Developer</p>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="card">
+                        <div class="card-thumb>"><img src="./images/team-card-3.jpg" alt="Николай Тарасов" width="270" /></div>
+                        <div class="comand-desc">
+                            <h3 class="persons">Николай Тарасов</h3>
+                            <p class="prof-persons">Marketing</p>
+                        </div>
+                    </article>
+            
+                </li>
+                <li>
+                    <article class="card">
+                        <div class="card-thumb>"><img src="./images/team-card-4.jpg" alt="Михаил Ермаков" width="270" /></div>
+                        <div class="comand-desc">
+                            <h3 class="persons">Михаил Ермаков</h3>
+                            <p class="prof-persons">UI Designer</p>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer-->
+
+    <footer>
+        <div class="container footer">
+        <a href="./index.html" class="logo">Web<span class="span-footer">Studio</span></a>
+        
+        <address>
+            <p class="adress">г. Киев, пр-т Леси Украинки, 26</p>
+            <a href="mailto:info@example.com" class="auth-nav-footer">info@example.com</a><br>
+            <a href="tel:+380991111111" class="auth-nav-footer">+38 099 111 11 11</a>
+        
+        </address>
+        </div>
+    </footer>
+</body>
+</html>
