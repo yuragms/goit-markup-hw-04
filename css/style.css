@@ -395,9 +395,6 @@ span {
 footer {
   background-color: var(--bg-section-color);
 }
-.footer {
-  min-height: 252px;
-}
 
 footer .logo {
   display: inline-block;
@@ -412,7 +409,7 @@ footer .logo {
   color: var(--primary-white-color);
   font-size: 14px;
   font-weight: 400;
-  line-height: 1.71;
+  line-height: 1.7;
   text-align: left;
   padding-bottom: 9px;
   padding-right: 14px;
@@ -441,7 +438,7 @@ address {
   color: var(--telmail-footer-color);
   font-size: 14px;
   font-weight: 400;
-  line-height: 1.71;
+  line-height: 1.7;
   text-align: left;
   padding-bottom: 9px;
 }
