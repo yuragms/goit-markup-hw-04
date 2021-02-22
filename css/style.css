@@ -63,7 +63,6 @@ body {
 .header {
   display: flex;
   align-items: center;
-  min-height: 80px;
 }
 .header ul {
   display: flex;
@@ -74,6 +73,8 @@ body {
   font-family: Raleway, cursive;
   font-size: 26px;
   line-height: 1.19;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 span {
   color: var(--primary-black-color);
@@ -126,27 +127,18 @@ span {
 }
 .mailto {
   margin-right: 10px;
-  fill: #757575;
+  fill: currentColor;
 }
 
-.mailto:hover,
-.mailto:hover:focus {
-  fill: var(--accent-color);
-}
 .smartfon {
   margin-right: 10px;
-  fill: #757575;
-}
-
-.smartfon:hover,
-.smartfon:hover:focus {
-  fill: var(--accent-color);
+  fill: currentColor;
 }
 
 /* Hero*/
 .prim {
   min-height: 600px;
-  padding: 200px;
+  padding: 200px 15px;
 }
 
 .prim-section {
@@ -260,7 +252,7 @@ span {
   font-weight: 700;
   line-height: 1.17;
   text-align: center;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .doing-list {
@@ -422,7 +414,7 @@ footer .logo {
   font-weight: 400;
   line-height: 1.71;
   text-align: left;
-  margin-bottom: 9px;
+  padding-bottom: 9px;
   padding-right: 14px;
 }
 
@@ -442,6 +434,7 @@ footer .logo {
 }
 address {
   font-style: normal;
+  padding-bottom: 60px;
 }
 .auth-nav-footer {
   display: inline-block;
@@ -450,7 +443,11 @@ address {
   font-weight: 400;
   line-height: 1.71;
   text-align: left;
-  margin-bottom: 9px;
+  padding-bottom: 9px;
+}
+
+.tel {
+  padding-bottom: 0px;
 }
 
 .auth-nav-footer:hover,
@@ -548,7 +545,7 @@ a {
   margin-right: 8px;
 }
 .work-disc {
-  margin: 20px 24px;
+  padding: 20px 24px;
 }
 
 .works-list {
