@@ -119,8 +119,9 @@ span {
 .auth-nav .item:last-child {
   margin-left: 50px;
 }
-.auth-nav .link a {
+.auth-nav .link {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 .mailto {
@@ -145,6 +146,7 @@ span {
 /* Hero*/
 .prim {
   min-height: 600px;
+  padding: 200px;
 }
 
 .prim-section {
@@ -169,7 +171,6 @@ span {
   letter-spacing: 0.06em;
   text-align: center;
   margin-bottom: 30px;
-  padding-top: 200px;
 }
 
 .link-prim-section {
@@ -187,7 +188,9 @@ span {
 
 /* advantage*/
 .advant {
-  min-height: 300px;
+  min-height: 440px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .visually-hidden {
@@ -219,8 +222,6 @@ span {
 
 .advantage-list {
   display: flex;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .advantage-list li {
@@ -274,7 +275,9 @@ span {
 }
 
 .comand {
-  min-height: 648px;
+  min-height: 708px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .title-comand {
   color: var(--primary-title-text-color);
@@ -283,14 +286,12 @@ span {
   line-height: 1.17;
   text-align: center;
   margin-bottom: 50px;
-  padding-top: 94px;
 }
 
 .comand-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 94px;
 }
 
 .persons {
@@ -356,7 +357,8 @@ span {
 /* Client*/
 
 .client {
-  height: 380px;
+  height: 370px;
+  padding: 94px;
 }
 
 .social-client {
@@ -490,6 +492,7 @@ address {
 
 .works {
   min-height: 1548px;
+  padding-top: 94px;
 }
 
 .button-works {
@@ -529,13 +532,13 @@ address {
   line-height: 1.19;
   text-align: left;
 }
+
 a {
   text-decoration: none;
 }
 .filter {
   display: flex;
   justify-content: center;
-  padding-top: 94px;
   padding-bottom: 50px;
 }
 .filter li:not(:last-child) {
@@ -544,6 +547,7 @@ a {
 .work-disc {
   margin: 20px 24px;
 }
+
 .works-list {
   display: flex;
   flex-wrap: wrap;
